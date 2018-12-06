@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWGraphy", "OWGraphy\OWGraphy.csproj", "{7DF6F570-6B4C-4741-9444-7E1E4FB2B520}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{AF8447C9-BC33-4EEF-9795-451B8998D7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase", "Components\DataBase\DataBase.csproj", "{0B6568E3-1433-4337-A63C-D805069DDD3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListView", "Components\ListView\ListView.csproj", "{F8DA1605-1738-4085-99F1-75538647F161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GifOutput", "Components\GifOutput\GifOutput.csproj", "{EBD47BF2-6D64-4BDC-9E24-EDA83496CBC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurfacePlot", "Components\SurfacePlot\SurfacePlot.csproj", "{62A77C81-F702-403D-AFEF-F4E715A690CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindRosePlot", "Components\WindRosePlot\WindRosePlot.csproj", "{1F21988F-A38E-42FB-B342-4C5B11048ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GISMapView", "Components\GISMapView\GISMapView.csproj", "{C2C78F35-AE1D-4167-871C-F056C063A6D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DF6F570-6B4C-4741-9444-7E1E4FB2B520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF6F570-6B4C-4741-9444-7E1E4FB2B520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF6F570-6B4C-4741-9444-7E1E4FB2B520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF6F570-6B4C-4741-9444-7E1E4FB2B520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6568E3-1433-4337-A63C-D805069DDD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6568E3-1433-4337-A63C-D805069DDD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6568E3-1433-4337-A63C-D805069DDD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6568E3-1433-4337-A63C-D805069DDD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DA1605-1738-4085-99F1-75538647F161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DA1605-1738-4085-99F1-75538647F161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DA1605-1738-4085-99F1-75538647F161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DA1605-1738-4085-99F1-75538647F161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD47BF2-6D64-4BDC-9E24-EDA83496CBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD47BF2-6D64-4BDC-9E24-EDA83496CBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD47BF2-6D64-4BDC-9E24-EDA83496CBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD47BF2-6D64-4BDC-9E24-EDA83496CBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A77C81-F702-403D-AFEF-F4E715A690CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A77C81-F702-403D-AFEF-F4E715A690CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A77C81-F702-403D-AFEF-F4E715A690CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A77C81-F702-403D-AFEF-F4E715A690CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F21988F-A38E-42FB-B342-4C5B11048ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F21988F-A38E-42FB-B342-4C5B11048ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F21988F-A38E-42FB-B342-4C5B11048ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F21988F-A38E-42FB-B342-4C5B11048ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C78F35-AE1D-4167-871C-F056C063A6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C78F35-AE1D-4167-871C-F056C063A6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C78F35-AE1D-4167-871C-F056C063A6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C78F35-AE1D-4167-871C-F056C063A6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B6568E3-1433-4337-A63C-D805069DDD3C} = {AF8447C9-BC33-4EEF-9795-451B8998D7C2}
+		{F8DA1605-1738-4085-99F1-75538647F161} = {AF8447C9-BC33-4EEF-9795-451B8998D7C2}
+		{EBD47BF2-6D64-4BDC-9E24-EDA83496CBC7} = {AF8447C9-BC33-4EEF-9795-451B8998D7C2}
+		{62A77C81-F702-403D-AFEF-F4E715A690CA} = {AF8447C9-BC33-4EEF-9795-451B8998D7C2}
+		{1F21988F-A38E-42FB-B342-4C5B11048ACC} = {AF8447C9-BC33-4EEF-9795-451B8998D7C2}
+		{C2C78F35-AE1D-4167-871C-F056C063A6D3} = {AF8447C9-BC33-4EEF-9795-451B8998D7C2}
+	EndGlobalSection
+EndGlobal
